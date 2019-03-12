@@ -1,0 +1,25 @@
+Dependencies: mpv
+
+Installation:
+
+mv db.json.init db.json
+
+ln -s $(readlink -f YTPlayer.py) ~/bin/ytplayer
+
+ln -s $(readlink -f YTVote.py) ~/bin/ytvote
+
+Edit both YTPlayer and YTVote do that dbfile="absolute path to your db.json file"
+
+Usage:
+
+ytplayer &
+
+ytvote cmd
+
+cmd:
+
+- up
+
+- down
+
+- remove
