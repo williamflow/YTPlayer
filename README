@@ -12,7 +12,7 @@ Edit both YTPlayer and YTVote do that dbfile="absolute path to your db.json file
 
 Usage:
 
-ytplayer &
+ytplayer &>/dev/null &
 
 ytvote cmd
 
